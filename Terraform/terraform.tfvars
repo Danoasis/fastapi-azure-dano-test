@@ -1,0 +1,5 @@
+resource_group_name = "rg-fastapi-demo"
+location            = "canadacentral"
+container_name      = "fastapi-app"
+postgres_admin      = "dbadmin"
+postgres_password   = "TuPasswordSegura123!"

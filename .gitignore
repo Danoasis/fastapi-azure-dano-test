@@ -1,0 +1,2 @@
+echo ".terraform/" >> .gitignore
+echo "*.exe" >> .gitignore # Optional: ignores all executables
