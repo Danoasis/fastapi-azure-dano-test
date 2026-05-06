@@ -10,5 +10,5 @@ def root():
     # Declares a function called root that will execute when a client makes a GET / request
     return {
         # Returns a dictionary as a response to client (FastAPI converts it to a JSON)
-        "message:", "API running on Azure with FastAPI + Docker + Terraform!"
+        "message:": "API running on Azure with FastAPI + Docker + Terraform!"
     } 

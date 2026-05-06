@@ -35,15 +35,12 @@ jobs:
         uses: azure/container-apps-deploy-action@v2
         with:
           appSourcePath: ${{ github.workspace }}
-          _dockerfilePathKey_: _dockerfilePath_
-          _targetLabelKey_: _targetLabel_
+          _dockerfilePathKey_: Dockerfile
           registryUrl: fastapiregistryavf5w.azurecr.io
           registryUsername: ${{ secrets.FASTAPICONTAINER_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.FASTAPICONTAINER_REGISTRY_PASSWORD }}
           containerAppName: fastapi-container
           resourceGroup: fastapi-rg
           imageToBuild: fastapiregistryavf5w.azurecr.io/fastapi-container:${{ github.sha }}
-          _buildArgumentsKey_: |
-            _buildArgumentsValues_
 
 
