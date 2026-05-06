@@ -1,2 +1,5 @@
-echo ".terraform/" >> .gitignore
-echo "*.exe" >> .gitignore # Optional: ignores all executables
+Terraform/terraform.tfvars
+venv/
+*.tfstate
+*.tfstate.backup
+Terraform/.terraform/
